@@ -1,0 +1,19 @@
+body {background: #ffffff; margin: 60px; padding: 10px;} 
+a {color: #2b2bf6;}           
+#top, #bottom, #left, #right {
+	background: #1b85a8;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 60px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 60px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }

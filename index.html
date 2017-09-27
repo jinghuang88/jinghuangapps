@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<link
+rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	background-color:#1b85a8;
+    overflow: hidden;
+	border: 1px solid pink;
+	
+}
+
+li {
+    float: left;
+	text-align:center;
+    border-bottom: 1px solid pink;
+    
+	color:White;
+}
+ li:hover> ul
+{
+    display:block}
+    
+li ul li a
+{
+    display:block}
+li a {
+    display: block;
+    padding: 14px 16px;
+	text-align:center;
+	color:white;
+
+}
+li:last-child {
+
+	board-bottom:none;
+}
+/*chnage the link color to blue on hover */
+li a:hover {
+     background-color:blue
+}
+ul li:hover
+{
+    background-color:Blue;
+}
+a.active {
+     background-color:blue
+}
+
+</style>
+</head>
+<body>
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+<p style="color:blue;font-size:300%;text-align:center"><b>Jing Android App Center</b>
+</p>
+<ul>
+  <li><a class="active" href="#home"><b>Home</b></a></li>
+  <li>Privacy Policy Statement
+    <ul>
+    <li><a href="GEOGRAPHICS.htm"><b>GEOGRAPHICS</b></a></li>
+    <li><a href="DEMOGRAPHICS.html"><b>DEMOGRAPHICS</b></a></li>
+    </ul>
+  </li>
+  <li><a href="#MySpending"><b>MySpending</b></a></li>
+  <li><a href="#DEMOGRAPHICS"><b>DEMOGRAPHICS</b></a></li>
+  <li><a href="#GEOGRAPGICS"><b>GEOGRAPHICS</a></li>
+</ul>
+<p style="color:blue;font-size:150%;text-align:center">Meet The Developer</p>
+<img src="niagara_falls.jpg" alt="your browser does not support the image" width="400" height="270">
+<hr>
+<p style="color:blue;font-size:150%;text-align:center">Words From The Developer</p>
+
+<hr>
+<h3 style="color:blue";>Your comments to Jing</h3>
+<form action="mailto:jinghuangapps@gmail.com" method="post" enctype="text/plain" style="color:blue;font-weight:bold";>
+Name:<br>
+<input type="text" name="name"><br>
+Email:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size 50><br><br>
+<input type="submit" value="Send" style="color:blue;font-size:100%;font-weight:bold";>
+<input type="reset" value="Reset" style="color:blue;font-size:100%;font-weight:bold";>
+</form>
+
+
+</body>
+<html>
